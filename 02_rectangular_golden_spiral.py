@@ -13,6 +13,14 @@ initial_arm_length * (phi**i)
 
 ### YOUR CODE STARTS HERE
 
+x = 90
+
+def spiral (size) :
+    for i in range (size) :
+        turtle.forward(phi**i)
+        turtle.left(x)
+
+spiral(13)
 
 ### YOUR CODE ENDS HERE
 
